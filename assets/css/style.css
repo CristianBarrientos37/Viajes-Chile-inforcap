@@ -1,3 +1,27 @@
+body {
+    background-color: black !important;
+    font-family: "Cabin", sans-serif !important;
+}
+
+
 .logo_viajes{
     width: 35px;
 }
+
+.icons {
+    text-align: center;
+}
+
+.card-body, .card-text{
+    background-color: rgb(72, 209, 209);
+}
+
+
+
+
+footer {
+    height: 80px;
+}
+  
+
+  
