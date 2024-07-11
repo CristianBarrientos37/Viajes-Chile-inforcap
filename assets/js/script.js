@@ -4,10 +4,10 @@ $(function(){
     $('.enviarCorreo').click(function(){
         $('#emailAlert').removeClass('d-none')       
     });   
-    $("h4").dblclick(function() {
-        $(this).css("color", "red");
+    $("h2").dblclick(function() {
+        $(this).css("color", "pink");
     });
-    $('.card-title').click(function(){
-        $('.card-text').toggle()
+    $('.favicons').click(function(){
+        $('.mensaje_mision').toggle()
     });
 })
