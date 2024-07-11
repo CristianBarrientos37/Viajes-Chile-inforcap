@@ -166,6 +166,7 @@
 
     <section class="container">
         <div class="text-center" id="contacto">
+            
             <h2 class="mt-5 fw-bold fs-1 text-white">
                 Contáctame
             </h2>
@@ -188,9 +189,12 @@
                 <label for="floatingTextarea2">Escribe aquí tu mensaje</label>
             </div>
             <div >
-                <button type="button" data-bs-toggle="tooltip" data-bs-title="enviar formulario" class="btn btn-info text-white">Enviar</button>
+                <button type="button" data-bs-toggle="tooltip" data-bs-title="enviar formulario" class="btn btn-info text-white enviar_formulario">Enviar</button>
             </div>
-            
+            <div id="emailAlert" class="d-none alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>El formulario fue enviado correctamente</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
         </form>
 
     </section>

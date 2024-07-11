@@ -1,7 +1,7 @@
 $(function(){
     $("[data-bs-toggle='tooltip']").tooltip()
 
-    $('.enviarCorreo').click(function(){
+    $('.enviar_formulario').click(function(){
         $('#emailAlert').removeClass('d-none')       
     });   
     $("h2").dblclick(function() {
